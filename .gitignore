@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotNet/.vs
+/DotNet/AspNetWebDemo/.vs/AspNetWebDemo
+/DotNet/AspNetWebDemo/AspNetWebDemo/bin/Debug/net5.0
+/DotNet/AspNetWebDemo/AspNetWebDemo/obj
+/DotNet/AspNetWebDemo/AspNetWebDemoTests/bin/Debug/net5.0
+/DotNet/AspNetWebDemo/AspNetWebDemoTests/obj
