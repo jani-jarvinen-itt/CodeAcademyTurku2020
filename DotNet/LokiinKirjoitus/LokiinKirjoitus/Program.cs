@@ -18,12 +18,20 @@ namespace LokiinKirjoitus
             string rivi = kellonaika + ": " + viesti + "\r\n";
 
             const string TiedostoNimi = @"C:\Academy\Turku2020\GitTesti\DotNet\Loki.txt";
-            FileStream loki = new FileStream(TiedostoNimi, FileMode.Append);
 
+            /*
+            FileStream loki = new FileStream(TiedostoNimi, FileMode.Append);
             byte[] tavut = Encoding.UTF8.GetBytes(rivi);
             loki.Write(tavut, 0, tavut.Length);
             loki.Flush();
             loki.Close();
+            */
+
+            using (FileStream loki = new FileStream(TiedostoNimi, FileMode.Append))
+            {
+                byte[] tavut = Encoding.UTF8.GetBytes(rivi);
+                loki.Write(tavut, 0, tavut.Length);
+            }
 
             Console.WriteLine("Lokimerkintä kirjoitettu.");
         }
