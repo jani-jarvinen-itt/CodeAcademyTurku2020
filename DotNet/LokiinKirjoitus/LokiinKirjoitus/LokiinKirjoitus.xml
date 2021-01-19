@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LokiinKirjoitus</name>
+    </assembly>
+    <members>
+        <member name="M:LokiinKirjoitus.Program.KirjoitaLokiin(System.String)">
+            <summary>
+            Kirjoittaa annetun viestin tekstitiedostoon päivämäärän kanssa.
+            </summary>
+            <param name="viesti">Haluttu viesti.</param>
+        </member>
+    </members>
+</doc>

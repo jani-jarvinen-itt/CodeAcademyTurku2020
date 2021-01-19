@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Academy\Turku2020\GitTesti\DotNet\LokiinKirjoitus\LokiinKirjoitus\LokiinKirjoitus.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>
