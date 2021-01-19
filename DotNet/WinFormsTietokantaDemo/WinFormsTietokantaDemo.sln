@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsTietokantaDemo", "WinFormsTietokantaDemo\WinFormsTietokantaDemo.csproj", "{D328FD87-6C98-429B-9A2E-82F6405DCCFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D328FD87-6C98-429B-9A2E-82F6405DCCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D328FD87-6C98-429B-9A2E-82F6405DCCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D328FD87-6C98-429B-9A2E-82F6405DCCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D328FD87-6C98-429B-9A2E-82F6405DCCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C86A7E-D601-465E-AE61-45A94A6A6F58}
+	EndGlobalSection
+EndGlobal
