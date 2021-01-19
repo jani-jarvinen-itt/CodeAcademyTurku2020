@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntityFrameworkTesti.Models;
+using System;
 
 namespace EntityFrameworkTesti
 {
@@ -7,6 +8,12 @@ namespace EntityFrameworkTesti
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            NorthwindContext context = new NorthwindContext();
+            foreach (Customer customer in context.Customers)
+            {
+                Console.WriteLine(customer.CompanyName);
+            }
         }
     }
 }
