@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Text.Json;
 
 namespace Säätiedot
 {
@@ -19,7 +20,11 @@ namespace Säätiedot
             HttpResponseMessage response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
-            Console.WriteLine(responseBody);
+            // Console.WriteLine(responseBody);
+
+            // muunnetaan JSON-tekstidata C#-olioksi
+            OpenWeatherMap säätiedot = JsonSerializer.Deserialize<OpenWeatherMap>(responseBody);
+            Console.WriteLine($"Lämpötila kaupungissa {kaupunki} on: {säätiedot.main.temp} °C.");
 
             Console.WriteLine("Sovelluksen suoritus päättyy.");
         }
