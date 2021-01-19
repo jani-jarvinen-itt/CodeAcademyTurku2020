@@ -12,7 +12,11 @@ namespace Säätiedot
         {
             Console.WriteLine("Säätietojen haku alkaa.");
 
-            HttpResponseMessage response = await client.GetAsync("http://www.contoso.com/");
+            string kaupunki = "Turku";
+            string apiAvain = "f9463bc94dd7f584483b04a3a49f18ba";
+            string url = $"https://api.openweathermap.org/data/2.5/weather?q={kaupunki}&appid={apiAvain}&units=metric";
+
+            HttpResponseMessage response = await client.GetAsync(url);
             response.EnsureSuccessStatusCode();
             string responseBody = await response.Content.ReadAsStringAsync();
             Console.WriteLine(responseBody);
