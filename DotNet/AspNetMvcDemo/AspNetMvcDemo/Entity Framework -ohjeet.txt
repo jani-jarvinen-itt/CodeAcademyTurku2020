@@ -1,0 +1,6 @@
+﻿
+1. Install-Package Microsoft.EntityFrameworkCore.Tools
+
+2. Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+3. Scaffold-DbContext "Server=localhost\SQLEXPRESS;Database=Northwind;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Database
