@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcDemo", "AspNewMvcDemo\AspNetMvcDemo.csproj", "{55C5122A-8FD8-413D-AC62-6F684D1ACC93}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcDemo", "AspNetMvcDemo\AspNetMvcDemo.csproj", "{55C5122A-8FD8-413D-AC62-6F684D1ACC93}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
