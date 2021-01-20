@@ -28,3 +28,7 @@ DotNet/LokiinKirjoitus/.vs/LokiinKirjoitus/v16/TestStore/0/testlog.manifest
 /DotNet/EntityFrameworkTesti/.vs/EntityFrameworkTesti/v16
 /DotNet/EntityFrameworkTesti/EntityFrameworkTesti/bin/Debug/net5.0
 /DotNet/EntityFrameworkTesti/EntityFrameworkTesti/obj
+/DotNet/LinqTesti/.vs/LinqTesti/v16
+/DotNet/LinqTesti/LinqTesti/bin/Debug/netcoreapp3.1
+/DotNet/LinqTesti/LinqTesti/obj
+/DotNet/WpfDemo/.vs/WpfDemo/DesignTimeBuild
