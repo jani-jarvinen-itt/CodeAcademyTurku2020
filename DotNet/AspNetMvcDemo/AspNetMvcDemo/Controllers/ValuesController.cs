@@ -11,5 +11,9 @@ namespace AspNetMvcDemo.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        public string SanoMoi()
+        {
+            return "Moikka ASP.NET:istä!";
+        }
     }
 }
