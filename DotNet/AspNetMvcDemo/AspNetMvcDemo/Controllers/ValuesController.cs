@@ -11,9 +11,26 @@ namespace AspNetMvcDemo.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        [HttpGet]
+        [HttpPost]
+        [Route("moi")]
         public string SanoMoi()
         {
             return "Moikka ASP.NET:istä!";
+        }
+
+        [HttpGet]
+        [Route("aika")]
+        public DateTime Kellonaika()
+        {
+            return DateTime.Now;
+        }
+
+        // [HttpGet]
+        [Route("luvut")]
+        public int[] Luvut()
+        {
+            return new int[] { 3, 5, 7, 9, 11 };
         }
     }
 }
