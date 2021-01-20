@@ -56,10 +56,19 @@ namespace LinqTesti
             Console.WriteLine();
             int[] luvut4 = { 1, 8, 4, 15, 13, 20, 7, 5, 17, 2, 11, 8, 16, 14 };
             var suuretLuvut3 = luvut4.Where(l => l > 10).OrderBy(l => l);
+            //var suuretLuvut3 = luvut4.Where(TäyttääEhdot).OrderBy(l => l);
+
             foreach (int luku in suuretLuvut3)
             {
                 Console.WriteLine(luku);
             }
+
+            int summa = luvut4.Sum();
+        }
+
+        private static bool TäyttääEhdot(int luku)
+        {
+            return luku > 10;
         }
     }
 }
