@@ -4,3 +4,10 @@
 <h1>@ViewData["Title"]</h1>
 
 <p>Tämä on uusi sivu</p>
+
+<ul>
+    @for (int i = 0; i < 10; i++)
+    {
+        <li>@(i+1)</li>
+    }
+</ul>

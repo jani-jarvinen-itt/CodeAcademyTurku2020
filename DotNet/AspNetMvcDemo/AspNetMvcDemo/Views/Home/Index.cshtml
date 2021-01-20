@@ -1,14 +1,17 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@section head {
+    <meta xxx="abc" />
+}
 @section scripts {
-  <script>
-      $(function () {
-          $("#nappi1").click(function () {
-              alert("Moi!");
-          });
-      });
-  </script>
+    <script>
+        $(function () {
+            $("#nappi1").click(function () {
+                alert("Moi!");
+            });
+        });
+    </script>
 }
 
 <div class="text-center">
