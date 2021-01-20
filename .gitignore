@@ -32,3 +32,7 @@ DotNet/LokiinKirjoitus/.vs/LokiinKirjoitus/v16/TestStore/0/testlog.manifest
 /DotNet/LinqTesti/LinqTesti/bin/Debug/netcoreapp3.1
 /DotNet/LinqTesti/LinqTesti/obj
 /DotNet/WpfDemo/.vs/WpfDemo/DesignTimeBuild
+/DotNet/AspNewMvcDemo/.vs/AspNewMvcDemo
+/DotNet/AspNewMvcDemo/AspNewMvcDemo/bin/Debug/net5.0
+/DotNet/AspNewMvcDemo/AspNewMvcDemo/obj
+/DotNet/EntityFrameworkTesti/.vs/EntityFrameworkTesti/DesignTimeBuild
